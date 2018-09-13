@@ -2,6 +2,71 @@ body {
   margin: 0;
   padding: 0;
 }
+/* -------- HEADER ----- */
+header {
+  background-color: #41536D;
+  display: flex;
+}
+.header--logo img {
+  width: 37%;
+}
+.header--account ul {
+  display: flex;
+  list-style-type: none;
+  padding-right: 15px;
+  padding-left: 44%;
+  align-items: flex-end;
+  margin-left: 40%;
+}
+.header--account--sign {
+  font-family: Helvetica;
+  background-color: #01AA91;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 35px;
+  margin-right: 17px;
+}
+.header--account--sign > a {
+  text-decoration: none;
+  color: white;
+}
+.header--account--sign:hover {
+  background-color: #017766;
+}
+.header--account--help {
+  font-family: Helvetica;
+  margin-right: 18px;
+}
+.header--account--help > a {
+  text-decoration: none;
+  color: white;
+}
+.header--account--help:hover {
+  background-color: #20304b;
+  width: 8%;
+  padding: 13px;
+}
+.header--account--language button {
+  border: 2px solid #C0C9CC;
+  border-radius: 5px;
+  margin-right: 18px;
+}
+.header--account--language button:hover {
+  border-color: white;
+  box-shadow: 0 0 0 4px #21314D;
+}
+.header--account--money button {
+  border: 2px solid #C0C9CC;
+  border-radius: 5px;
+  color: white;
+  background-color: #41536D;
+  font-size: 11px;
+  font-weight: 700;
+}
+.header--account--money button:hover {
+  border-color: white;
+  box-shadow: 0 0 0 4px #21314D;
+}
 .home {
   background-image: url('https://assets.trainline.eu/assets/images/open-home/covers/cover-beach-8dc53adfd913bec45958b705ec6369fa.jpg');
   background-size: 100%;
